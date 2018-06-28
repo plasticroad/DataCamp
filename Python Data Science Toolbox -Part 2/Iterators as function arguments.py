@@ -12,6 +12,7 @@ Create a range object that would produce the values from 10 to 20 using range().
 Use the list() function to create a list of values from the range object values. Assign the result to values_list.
 Use the sum() function to get the sum of the values from 10 to 20 from the range object values. Assign the result to values_sum.
 '''
+
 # Create a range object: values
 values = range(10,21)
 
