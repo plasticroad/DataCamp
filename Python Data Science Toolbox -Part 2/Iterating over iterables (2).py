@@ -17,6 +17,7 @@ Create an iterator object small_value over range(3) using the function iter().
 Using a for loop, iterate over range(3), printing the value for every iteration. Use num as the loop variable.
 Create an iterator object googol over range(10 ** 100).
 '''
+
 # Create an iterator for range(3): small_value
 small_value = iter(range(3))
 
