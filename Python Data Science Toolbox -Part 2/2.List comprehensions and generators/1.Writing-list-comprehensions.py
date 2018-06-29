@@ -8,4 +8,6 @@ Using the range of numbers from 0 to 9 as your iterable and i as your iterator v
 '''
 
 # Create list comprehension: squares
-squares = [____ for ____ in ____]
+squares = [i*i for i in range(0,10)]
+
+print (squares)
