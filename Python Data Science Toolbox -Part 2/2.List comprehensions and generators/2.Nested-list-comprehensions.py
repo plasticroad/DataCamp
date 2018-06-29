@@ -24,8 +24,9 @@ In the iterable part of your nested list comprehension, use range() to count 5 r
 '''
 
 # Create a 5 x 5 matrix using a list of lists: matrix
-matrix = [[____] ____]
+matrix = [[col for col in range(0,5)] for row in range(0,5)]
 
 # Print the matrix
 for row in matrix:
     print(row)
+
