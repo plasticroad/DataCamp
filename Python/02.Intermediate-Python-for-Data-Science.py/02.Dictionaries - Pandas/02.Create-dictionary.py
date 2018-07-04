@@ -9,6 +9,7 @@ my_dict = {
    "key1":"value1",
    "key2":"value2",
 }
+
 In this recipe, both the keys and the values are strings. This will also be the 
 case for this exercise.
 
