@@ -1,5 +1,6 @@
 '''
 Create dictionary
+
 The countries and capitals lists are again available in the script. It's your job to
 convert this data to a dictionary where the country names are the keys and the 
 capitals are the corresponding values. As a refresher, here is a recipe for 
