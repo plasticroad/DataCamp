@@ -15,8 +15,7 @@ The file that you'll be importing, digits_header.txt,
 
 has a header
 is tab-delimited.
-INSTRUCTIONS
-100 XP
+
 INSTRUCTIONS
 100 XP
 Complete the arguments of np.loadtxt(): the file you're importing is tab-delimited, 
