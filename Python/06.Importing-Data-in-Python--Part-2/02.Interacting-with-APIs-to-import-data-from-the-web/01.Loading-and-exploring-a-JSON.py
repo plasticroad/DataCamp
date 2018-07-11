@@ -1,4 +1,4 @@
-"
+'''
 Loading and exploring a JSON
 
 Now that you know what a JSON is, you'll load one into your Python environment and 
@@ -15,3 +15,13 @@ Use a for loop to print all key-value pairs in the dictionary json_data. Recall
 that you can access a value in a dictionary using the syntax: dictionary[key].
 '''
 
+#Importing JSON package
+import  json
+
+# Load JSON: json_data
+with open("a_movie.json") as json_file:
+    json_data = json.load(json_file)
+
+# Print each key-value pair in json_data
+for k in json_data.keys():
+    print(k + ': ', json_data[k] )
