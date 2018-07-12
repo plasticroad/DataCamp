@@ -30,8 +30,11 @@ and 'counts' as the value_name.
 Create a column called 'str_split' by splitting the 'type_country' column of 
 ebola_melt on '_'. Note that you will first have to access the str attribute of 
 type_country before you can use .split().
-Create a column called 'type' by using the .get() method to retrieve index 0 of the 'str_split' column of ebola_melt.
-Create a column called 'country' by using the .get() method to retrieve index 1 of the 'str_split' column of ebola_melt.
-Print the head of ebola. This has been done for you, so hit 'Submit Answer' to view the results!
+Create a column called 'type' by using the .get() method to retrieve index 0 of the 
+'str_split' column of ebola_melt.
+Create a column called 'country' by using the .get() method to retrieve index 1 of 
+the 'str_split' column of ebola_melt.
+Print the head of ebola. This has been done for you, so hit 'Submit Answer' to view 
+the results!
 '''
 
