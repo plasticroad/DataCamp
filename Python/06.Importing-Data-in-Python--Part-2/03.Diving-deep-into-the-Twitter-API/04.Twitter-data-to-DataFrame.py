@@ -16,3 +16,11 @@ Assign the result of the pd.DataFrame() call to df.
 Print the head of the DataFrame.
 '''
 
+# Import package
+import pandas as pd
+
+# Build DataFrame of tweet texts and languages
+df = pd.DataFrame(tweets_data, columns=['text','lang'])
+
+# Print head of DataFrame
+print(df.head())
